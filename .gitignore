@@ -1,0 +1,20 @@
+# Local secrets & environment variables (never commit!)
+.streamlit/secrets.toml
+.env
+.env.*
+
+# Python bytecode & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
